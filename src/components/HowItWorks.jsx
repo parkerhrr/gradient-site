@@ -33,20 +33,20 @@ export function HowItWorks() {
 
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Steps Section */}
-          <div className="flex-1 space-y-6">
+          <div className="flex-1 space-y-8">
             {steps.map((step, index) => (
               <div 
                 key={index} 
-                className="flex items-start space-x-4 p-4 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors"
+                className="flex items-start space-x-6 p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors"
               >
-                <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-lg font-medium shrink-0">
+                <div className="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center text-xl font-light shrink-0">
                   {step.number}
                 </div>
                 <div>
-                  <h3 className="text-xl font-medium text-gray-900 mb-1">
+                  <h3 className="text-2xl font-light text-gray-900 mb-2">
                     {step.title}
                   </h3>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-base font-light text-gray-600">
                     {step.description}
                   </p>
                 </div>

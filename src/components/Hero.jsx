@@ -11,8 +11,8 @@ export function Hero() {
             for regional and community banks.
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Streamlining commercial debt recovery for banks<br />
-            without compromising customer relationships.
+            Specializing in restoring balance to community and regional banks portfolios<br />
+            through commercial and industrial debt collection.
           </p>
           <div className="flex justify-center">
             <a 
