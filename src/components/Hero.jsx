@@ -4,7 +4,7 @@ import { HoverButton } from './ui/HoverButton'
 export function Hero() {
   return (
     <AuroraBackground>
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <h1 className="text-6xl font-light text-gray-900 mb-6">
             Commercial collection<br />
