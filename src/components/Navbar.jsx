@@ -15,11 +15,11 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full bg-white z-50 border-b">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl font-light tracking-wider text-gray-800 hover:text-primary transition-colors">
+            <div className="text-3xl font-light tracking-wider text-gray-800">
               <span className="font-medium">Gradient</span>
               <span className="font-extralight ml-1">Debt</span>
             </div>
@@ -45,10 +45,9 @@ export function Navbar() {
               href="https://form.typeform.com/to/vWAugNcp"
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-primary text-white px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-primary/90"
             >
-              <HoverButton>
-                Contact
-              </HoverButton>
+              Contact
             </a>
           </div>
 

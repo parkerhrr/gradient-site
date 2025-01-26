@@ -1,5 +1,6 @@
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
+import { TrustedPartners } from './components/TrustedPartners'
 import { About } from './components/About'
 import { HowItWorks } from './components/HowItWorks'
 import { CTA } from './components/CTA'
@@ -10,6 +11,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <TrustedPartners />
       <About />
       <HowItWorks />
       <CTA />
